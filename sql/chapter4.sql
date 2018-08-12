@@ -11,3 +11,11 @@ CREATE TABLE `birds` (
   PRIMARY KEY (`bird_id`),
   UNIQUE KEY `scientific_name` (`scientific_name`)
 ) ENGINE=INNODB DEFAULT CHARSET=utf8;
+
+INSERT INTO birds(scientific_name, common_name)
+VALUES('Charadrius vociferus', 'killdeer'),
+('Gavia immer', 'Great Northern Loon'),
+('Aix sponsa', 'Wood Duck'),
+('Chordeiles minor', 'Common Nighthawk'),
+('Sitta carolinensis', 'White-breasted Nuthatch'),
+('Apteryx mantelli', 'North Island Brown Kiwi');

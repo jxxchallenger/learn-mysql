@@ -80,3 +80,32 @@ CREATE TABLE IF NOT EXISTS rookery.birds_bill_shapes (
   bill_shape CHAR(25),
   bill_example BLOB
 ) ENGINE=INNODB DEFAULT CHARSET=utf8;
+
+#--------------------- chapter 5 ------------------------
+
+ALTER TABLE rookery.bird_families ADD COLUMN order_id INT;
+
+ALTER TABLE rookery.birds ADD COLUMN wing_id CHAR(2);
+
+ALTER TABLE rookery.birds DROP COLUMN wing_id;
+
+ALTER TABLE rookery.birds ADD COLUMN wing_id CHAR(2) AFTER family_id;
+
+ALTER TABLE rookery.birds ADD COLUMN body_id CHAR(2) AFTER wing_id,
+ADD COLUMN bill_id CHAR(2) AFTER body_id,
+ADD COLUMN endanger BIT DEFAULT b'1' AFTER bill_id,
+CHANGE COLUMN common_name common_name VARCHAR(255);
+
+UPDATE rookery.`birds` SET endanger = 0 WHERE bird_id IN (1, 2, 4, 5);
+
+ALTER TABLE rookery.birds MODIFY COLUMN endanger
+ENUM(
+  'Extinct',
+  'Extinct in wild',
+  'Threatened - Critically Endangered',
+  'Threatened - Endangered',
+  'Threatened - Vulnerable',
+  'Lower Risk - Conservation Dependent',
+  'Lower Risk - Near Threatened',
+  'Lower Risk - Least Concern'
+) AFTER family_id;

@@ -109,3 +109,34 @@ ENUM(
   'Lower Risk - Near Threatened',
   'Lower Risk - Least Concern'
 ) AFTER family_id;
+
+CREATE TABLE IF NOT EXISTS rookery.conservation_status (
+  status_id INT AUTO_INCREMENT PRIMARY KEY,
+  conservation_category CHAR(10),
+  conservation_state CHAR(25)
+) ENGINE=INNODB DEFAULT CHARSET=utf8;
+
+INSERT INTO rookery.`conservation_status`(conservation_category, conservation_state) 
+VALUES('Extinct', 'Extinct'),
+('Extinct', 'Extinct in wild'),
+('Threatened', 'Critically Endangered'),
+('Threatened', 'Endangered'),
+('Threatened', 'Vulnerable'),
+('Lower Risk', 'Conservation Dependent'),
+('Lower Risk', 'Near Threatened'),
+('Lower Risk', 'Least Concern');
+
+ALTER TABLE rookery.`birds` CHANGE COLUMN endanger conservation_status_id INT DEFAULT 8;
+
+ALTER TABLE rookery.`birds` AUTO_INCREMENT = 10;
+
+CREATE TABLE IF NOT EXISTS rookery.birds_new LIKE rookery.`birds`;
+
+CREATE TABLE IF NOT EXISTS rookery.birds_details SELECT bird_id, description FROM rookery.`birds`;
+
+ALTER TABLE rookery.`birds` DROP COLUMN description;
+
+ALTER TABLE birdwatchers.`humans` ADD INDEX human_names (name_last, name_first);
+
+ALTER TABLE rookery.`conservation_status` DROP PRIMARY KEY,
+CHANGE status_id conservation_status_id INT PRIMARY KEY AUTO_INCREMENT;

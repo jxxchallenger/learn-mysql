@@ -1,42 +1,68 @@
 Python
 
-https://www.linuxidc.com/Linux/2016-08/134336.htm
 
-
-https://www.linuxidc.com/Linux/2017-03/141709.htm
-https://www.linuxidc.com/Linux/2017-06/145208.htm
-https://www.linuxidc.com/Linux/2017-02/140538.htm
-https://www.linuxidc.com/Linux/2016-10/136025.htm
-https://www.linuxidc.com/Linux/2017-03/141662.htm
-
-
-https://www.linuxidc.com/Linux/2017-05/143300.htm
-
+Python数据分析基础
 http://java1234.com/a/javabook/javabase/2018/0817/11731.html
+
+python设计模式 第2版
 http://java1234.com/a/javabook/javabase/2018/0817/11740.html
+
+Python程序设计（第3版）
 http://java1234.com/a/javabook/javabase/2018/0408/10882.html
+
+Java安全编码标准 
 http://java1234.com/a/javabook/javabase/2018/0409/10896.html
+
+Python算法教程
 http://java1234.com/a/javabook/javabase/2017/0317/7756.html
+
+Python语言程序设计基础 第2版
 http://java1234.com/a/javabook/javabase/2018/0525/11226.html
+
+深入浅出深度学习：原理剖析与python实践 
 http://java1234.com/a/javabook/javabase/2018/0602/11277.html
+
+从Excel到Python——数据分析进阶指南
 http://java1234.com/a/javabook/javabase/2018/0602/11282.html
 
+Python地理空间分析指南（第2版）
 http://java1234.com/a/javabook/javabase/2018/0602/11279.html
+
+Python机器学习实践指南
 http://java1234.com/a/javabook/javabase/2018/0602/11280.html
+
+Python数据分析实战 
 http://java1234.com/a/javabook/javabase/2017/1122/9738.html
+
+Python数据处理
 http://java1234.com/a/javabook/javabase/2018/0628/11459.html
+
+Python程序设计教程
 http://java1234.com/a/javabook/javabase/2017/0523/8140.html
+
+Python高性能编程
 http://java1234.com/a/javabook/javabase/2018/0804/11658.html
+
+教孩子学编程 PYTHON语言版
 http://java1234.com/a/javabook/javabase/2018/0804/11666.html
+
+Python 3面向对象编程
 http://java1234.com/a/javabook/javabase/2018/0108/10202.html
+
+Python网络爬虫实战
 http://java1234.com/a/javabook/javabase/2017/1130/9799.html
+
+UML用户指南（第二版）
 http://java1234.com/a/javabook/javabase/2014/1208/3353.html
+
+Python网络编程 第三版
 http://java1234.com/a/javabook/javabase/2017/1215/9978.html
 
 Python核心编程（第3版）
 https://www.linuxprobe.com/python-core-program.html
+https://www.linuxidc.com/Linux/2017-02/140538.htm
 
-Python算法教程
+
 
 
 Spring MVC学习指南（第2版）
@@ -66,6 +92,7 @@ https://www.linuxprobe.com/python-work-jd.html
 
 Python编程：从入门到实践
 https://www.linuxprobe.com/python-program-practice.html
+https://www.linuxidc.com/Linux/2017-06/145208.htm
 
 Python网络数据采集
 https://www.linuxprobe.com/python-internet-pdf.html
@@ -78,6 +105,7 @@ https://www.linuxprobe.com/python-data-analyse.html
 
 Python自动化运维 技术与最佳实践
 https://www.linuxprobe.com/python-linux-pdf.html
+https://www.linuxidc.com/Linux/2016-10/136025.htm
 
 Python数据挖掘入门与实践
 https://www.linuxprobe.com/python-data-pdf.html
@@ -117,3 +145,15 @@ https://www.linuxprobe.com/nginx-second-edition.html
 
 python基础教程(第三版)
 https://www.linuxprobe.com/python-basic-tutorial.html
+Python基础教程(第2版)高清晰PDF+源代码
+https://www.linuxidc.com/Linux/2016-08/134336.htm
+
+
+Python项目开发实战（第2版）
+https://www.linuxidc.com/Linux/2017-03/141709.htm
+
+精通Python设计模式 高清晰PDF+源码
+https://www.linuxidc.com/Linux/2017-03/141662.htm
+
+Linux命令行与shell脚本编程大全（第3版）高清晰PDF
+https://www.linuxidc.com/Linux/2017-05/143300.htm
